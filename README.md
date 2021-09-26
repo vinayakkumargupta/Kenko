@@ -32,6 +32,10 @@ We mad a very Friendly User Ui Login With PHP
 
 ![photo_2021-09-27_04-09-05](https://user-images.githubusercontent.com/79376823/134826505-6a654618-a516-4153-842f-7c67aa818e6d.jpg)
 
+
+
+   
+
 ![photo_2021-09-27_04-09-31](https://user-images.githubusercontent.com/79376823/134826512-5ba60b16-4751-4e47-95bc-a78502240673.jpg)
 
 
@@ -87,4 +91,22 @@ you can also write about how's your days how you feel a particular day
 
 
 ![well 3](https://user-images.githubusercontent.com/79376823/134826238-e97bbe55-48d4-427e-813d-57152aaea6e7.png)
+
+
+# Future Goals 
+
+To Do All Components Which Left Right Now 
+i.e (Symptom Checker)
+   (My Checkup Shedule
+   (Nutrion Analysis)
+   (Work-out Analysis)
+   
+   
+# Teams 
+
+Vinayak Kumar Gupta 
+Email: E20CSE500@BENNETT.EDU.IN
+
+Antony Jose Antony 
+Email : E20CSE499@BENNETT.EDU.IN
 
