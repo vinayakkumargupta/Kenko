@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">kenko</string>
+    <string name="title_activity_login2">login_activity2</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="st1">Hey that\'s the spirit, keep up the positivity and spread love.</string>
+    <string name="st2">It seems that you just need to keep trying \'mi amigo\' , life is always about exploring and doing your best</string>
+    <string name="st3">It\'s ok , take some time off, let me take you to the my DETOX spa</string>
+    <string name="hi_user">HI USER</string>
+    <string name="todo">TODO</string>
+    <string name="when_did_you_sleep_yesterday">When did you sleep yesterday ?</string>
+</resources>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sleep_wall">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".sleeptracker"
+        android:paddingTop="50dp">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimationView23"
+            android:layout_width="317dp"
+            android:layout_height="224dp"
+            android:layout_marginStart="155dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="156dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/moonlight" />
+
+        <TextView
+            android:id="@+id/sleep_text"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/hi_user"
+            android:textColor="#323D53"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.134"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView23"
+            app:layout_constraintVertical_bias="0.079" />
+
+        <ImageView
+            android:id="@+id/hourclock"
+            android:layout_width="284dp"
+            android:layout_height="284dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="52dp"
+            android:layout_marginBottom="73dp"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/comboclock"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.434"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sleep_text"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="181dp"
+            android:layout_height="148dp"
+            android:foregroundGravity="center"
+            app:layout_constraintBottom_toTopOf="@+id/i6"
+            app:layout_constraintEnd_toStartOf="@+id/i3"
+            app:layout_constraintHorizontal_bias="0.26"
+            app:layout_constraintStart_toEndOf="@+id/i9"
+            app:layout_constraintTop_toBottomOf="@+id/i12"
+            app:layout_constraintVertical_bias="0.267"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/totheclock" />
+
+        <Button
+            android:id="@+id/i12"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="260dp"
+            android:background="@drawable/button_round"
+            android:backgroundTint="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/hourclock"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/hourclock"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/i1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_round"
+            android:backgroundTint="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/hourclock"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.646"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/hourclock"
+            app:layout_constraintVertical_bias="0.061" />
+
+        <Button
+            android:id="@+id/i2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_round"
+            android:backgroundTint="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/hourclock"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.773"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/hourclock"
+            app:layout_constraintVertical_bias="0.225" />
+
+        <Button
+            android:id="@+id/i10"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_round"
+            android:backgroundTint="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/hourclock"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.234"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/hourclock"
+            app:layout_constraintVertical_bias="0.213" />
+
+        <Button
+            android:id="@+id/i3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_round"
+            android:backgroundTint="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/hourclock"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.824"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/hourclock"
+            app:layout_constraintVertical_bias="0.487" />
+
+        <Button
+            android:id="@+id/i9"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_round"
+            android:backgroundTint="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/hourclock"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.167"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/hourclock"
+            app:layout_constraintVertical_bias="0.487" />
+
+        <Button
+            android:id="@+id/i4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_round"
+            android:backgroundTint="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/hourclock"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.773"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/hourclock"
+            app:layout_constraintVertical_bias="0.754" />
+
+        <Button
+            android:id="@+id/i8"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_round"
+            android:backgroundTint="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/hourclock"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.234"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/hourclock"
+            app:layout_constraintVertical_bias="0.737" />
+
+        <Button
+            android:id="@+id/i5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_round"
+            android:backgroundTint="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/hourclock"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.665"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/hourclock"
+            app:layout_constraintVertical_bias="0.901" />
+
+        <Button
+            android:id="@+id/i6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_round"
+            android:backgroundTint="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/hourclock"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/hourclock"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/i7"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_round"
+            android:backgroundTint="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/hourclock"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.342"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/hourclock"
+            app:layout_constraintVertical_bias="0.918" />
+
+        <Button
+            android:id="@+id/i11"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="244dp"
+            android:background="@drawable/button_round"
+            android:backgroundTint="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/hourclock"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.342"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/hourclock"
+            app:layout_constraintVertical_bias="0.25" />
+
+        <TextView
+            android:id="@+id/whensleeptext"
+            android:layout_width="291dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="92dp"
+            android:gravity="center"
+            android:text="@string/when_did_you_sleep_yesterday"
+            android:textColor="#C9CACF"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView23" />
+
+        <TextView
+            android:id="@+id/durationtext"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textColor="#C9CACf"
+            android:layout_marginTop="25dp"
+            android:text="                              "
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/hourclock" />
+
+        <Button
+            android:id="@+id/am_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_round"
+            android:backgroundTint="#00FFFFFF"
+            android:text=" AM "
+            android:textColor="#C9CACF"
+            app:layout_constraintBottom_toTopOf="@+id/whensleeptext"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.424"
+            app:layout_constraintStart_toEndOf="@+id/sleep_text"
+            app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView23" />
+
+        <Button
+            android:id="@+id/pm_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_round"
+            android:backgroundTint="#00FFFFFF"
+            android:text=" PM "
+            android:textColor="#C9CACF"
+            app:layout_constraintBottom_toTopOf="@+id/whensleeptext"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.693"
+            app:layout_constraintStart_toEndOf="@+id/sleep_text"
+            app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView23" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

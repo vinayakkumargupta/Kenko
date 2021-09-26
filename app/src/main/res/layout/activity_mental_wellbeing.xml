@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/samemotiv"
+    android:paddingBottom="50dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".mental_wellbeing"
+        android:paddingBottom="50dp">
+
+        <Button
+            android:id="@+id/quotes"
+            android:layout_width="94dp"
+            android:layout_height="94dp"
+            android:backgroundTint="#00FFFFFF"
+            android:background="@drawable/button_round"
+            app:layout_constraintBottom_toBottomOf="@+id/lottieAnimationView20"
+            app:layout_constraintEnd_toEndOf="@+id/lottieAnimationView20"
+            app:layout_constraintStart_toStartOf="@+id/lottieAnimationView20"
+            app:layout_constraintTop_toTopOf="@+id/lottieAnimationView20" />
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimationView20"
+            android:layout_width="163dp"
+            android:layout_height="183dp"
+            android:layout_marginStart="155dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="156dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="true"
+
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/motivational" />
+
+        <TextView
+            android:id="@+id/feels"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="396dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="How are you feeling now?"
+            android:textAlignment="center"
+            android:textColor="#FFB000"
+            android:textSize="27sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="48dp"
+            android:src="@mipmap/sad_foreground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.217"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/feels" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="48dp"
+            android:src="@mipmap/normal_foreground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/feels" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.794"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/feels"
+            android:src="@mipmap/joy_foreground"/>
+
+        <Button
+            android:id="@+id/sad"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_round"
+            android:backgroundTint="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView12"
+            app:layout_constraintEnd_toEndOf="@+id/imageView12"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="@+id/imageView12"
+            app:layout_constraintTop_toTopOf="@+id/imageView12"
+            app:layout_constraintVertical_bias="0.4" />
+
+        <Button
+            android:id="@+id/joy"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_round"
+            android:backgroundTint="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView11"
+            app:layout_constraintEnd_toEndOf="@+id/imageView11"
+            app:layout_constraintStart_toStartOf="@+id/imageView11"
+            app:layout_constraintTop_toTopOf="@+id/imageView11" />
+
+        <Button
+            android:id="@+id/nue"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_round"
+            android:backgroundTint="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+            app:layout_constraintEnd_toEndOf="@+id/imageView10"
+            app:layout_constraintStart_toStartOf="@+id/imageView10"
+            app:layout_constraintTop_toTopOf="@+id/imageView10" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

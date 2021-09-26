@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1065913663552",
+    "firebase_url": "https://kenko-6b5b1-default-rtdb.firebaseio.com",
+    "project_id": "kenko-6b5b1",
+    "storage_bucket": "kenko-6b5b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065913663552:android:8883d8c3d94a10e3fe5fa5",
+        "android_client_info": {
+          "package_name": "com.example.intro_splashscreen_kenko"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065913663552-renu2pbbsn6cfcbved81f5q2pubbqque.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSLiCRUysSd0Dq8Fdud5RdYnQ4cwOlelA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065913663552-renu2pbbsn6cfcbved81f5q2pubbqque.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

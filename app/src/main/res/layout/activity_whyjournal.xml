@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/samemotiv">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".whyjournal"
+        android:paddingBottom="50dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/whyjt"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="SO WHY WOULD YOU JOURNAL?"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:fontFamily="sans-serif-black"
+            android:text="When you were/If you are a teenager, you might have kept a diary hidden under your mattress. It was a place to confess your struggles and fears without judgment or punishment. It likely felt good to get all of those thoughts and feelings out of your head and down on paper. The world seemed clearer.
+
+You may have stopped using a diary once you reached adulthood. But the concept and its benefits still apply. Now it’s called journaling. It's simply writing down your thoughts and feelings to understand them more clearly. And if you struggle with stress, depression, or anxiety, keeping a journal can be a great idea. It can help you gain control of your emotions and improve your mental health.
+
+\nJournaling benefits
+
+\nOne of the ways to deal with any overwhelming emotion is to find a healthy way to express yourself. This makes a journal a helpful tool in managing your mental health. Journaling can help you:
+
+\n*Manage anxiety
+\n*Reduce stress
+\n*Cope with depression
+\nJournaling helps control your symptoms and improve your mood by:
+
+\n*Helping you prioritize problems, fears, and concerns
+\n*Tracking any symptoms day-to-day so that you can recognize triggers and learn ways to better control them
+\n*Providing an opportunity for positive self-talk and identifying negative thoughts and behaviors
+When you have a problem and you're stressed, keeping a journal can help you identify what’s causing that stress or anxiety. Once you’ve identified your stressors, you can work on a plan to resolve the problems and reduce your stress.
+
+\nKeep in mind that journaling is just one aspect of a healthy lifestyle for better managing stress, anxiety, and mental health conditions. To get the most benefits, be sure you also:
+
+\nRelax and meditate each day.
+\nEat a healthy, balanced diet.
+\nExercise regularly—get in some activity every day.
+\nTreat yourself to plenty of sleep each night.
+\nStay away from alcohol and drugs.
+\nUse your journal to make sure you follow these guidelines daily.
+
+\nHow to journal
+\n
+\nTry these tips to help you get started with journaling:
+
+\nTry to write every day. Set aside a few minutes every day to write. This will help you to write in your journal regularly.
+\nMake it easy. Keep a pen and paper handy at all times. Then when you want to write down your thoughts, you can. You can also keep a journal on your smartphone.
+\nWrite or draw whatever feels right. Your journal doesn't need to follow any certain structure. It's your own private place to discuss and create whatever you want to express your feelings. Let the words and ideas flow freely. Don't worry about spelling mistakes or what other people might think.
+\nUse your journal as you see fit. You don't have to share your journal with anyone. If you do want to share some of your thoughts with trusted friends and loved ones, you could show them parts of your journal.
+\nKeeping a journal helps you create order when your world feels like it’s in chaos. You get to know yourself by revealing your most private fears, thoughts, and feelings. Look at your writing time as personal relaxation time. It's a time when you can de-stress and wind down. Write in a place that's relaxing and soothing, maybe with a cup of tea. Look forward to your journaling time. And know that you're doing something good for your mind and body.
+\n
+\nMedical Reviewers:
+
+\nL Renee Watson MSN RN
+\nMarianne Fraser MSN RN
+\nPaul Ballas MD"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.552"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/whyjt">
+
+        </TextView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+</ScrollView>
+
+
+

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kenkomain">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".themenu"
+        android:paddingBottom="50dp">
+
+        <Button
+            android:id="@+id/symptom"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button_round"
+            android:backgroundTint="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/lottieAnimationView14"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimationView14"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/asmainlogin" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Symptom Checker"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/lottieAnimationView14"
+            app:layout_constraintStart_toStartOf="@+id/lottieAnimationView14"
+            app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView14" />
+
+
+        <Button
+            android:id="@+id/reservation"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:backgroundTint="#00FFFFFF"
+            android:background="@drawable/button_round"
+            app:layout_constraintBottom_toBottomOf="@+id/lottieAnimationView15"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/lottieAnimationView15" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            app:lottie_rawRes="@raw/calendar"
+            android:id="@+id/lottieAnimationView15"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="@+id/textView18"
+            app:layout_constraintStart_toStartOf="@+id/textView18"
+            app:layout_constraintTop_toBottomOf="@+id/textView18"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="false" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="My Check up Schedule"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/lottieAnimationView15"
+            app:layout_constraintStart_toStartOf="@+id/lottieAnimationView15"
+            app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView15" />
+
+
+        <Button
+            android:id="@+id/waterintake"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:backgroundTint="#00FFFFFF"
+            android:background="@drawable/button_round"
+            app:layout_constraintBottom_toBottomOf="@+id/lottieAnimationView16"
+            app:layout_constraintEnd_toEndOf="@+id/lottieAnimationView16"
+            app:layout_constraintStart_toStartOf="@+id/lottieAnimationView16"
+            app:layout_constraintTop_toTopOf="@+id/lottieAnimationView16" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimationView16"
+            app:lottie_rawRes="@raw/water"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView19"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true" />
+
+
+        <Button
+            android:id="@+id/nutrition"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:backgroundTint="#00FFFFFF"
+            android:background="@drawable/button_round"
+            app:layout_constraintBottom_toBottomOf="@+id/lottieAnimationView17"
+            app:layout_constraintEnd_toEndOf="@+id/lottieAnimationView17"
+            app:layout_constraintStart_toStartOf="@+id/lottieAnimationView17"
+            app:layout_constraintTop_toTopOf="@+id/lottieAnimationView17" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Water Intake"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/lottieAnimationView16"
+            app:layout_constraintStart_toStartOf="@+id/lottieAnimationView16"
+            app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView16" />
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimationView17"
+            app:lottie_rawRes="@raw/food"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView20"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Nutrition Analysis"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/lottieAnimationView17"
+            app:layout_constraintStart_toStartOf="@+id/lottieAnimationView17"
+            app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView17" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            app:lottie_rawRes="@raw/excersice"
+            android:id="@+id/lottieAnimationView18"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView21"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Work-Out Analysis"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView18" />
+
+        <Button
+            android:id="@+id/sleep"
+            android:layout_width="100dp"
+            android:backgroundTint="#00FFFFFF"
+            android:layout_height="100dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_round"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimationView21"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="false"
+            app:lottie_rawRes="@raw/sleep"
+            app:layout_constraintBottom_toBottomOf="@+id/sleep"
+            app:layout_constraintEnd_toEndOf="@+id/sleep"
+            app:layout_constraintStart_toStartOf="@+id/sleep"
+            app:layout_constraintTop_toTopOf="@+id/sleep" />
+
+        <Button
+            android:id="@+id/workout"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:backgroundTint="#00FFFFFF"
+            android:background="@drawable/button_round"
+            app:layout_constraintBottom_toBottomOf="@+id/lottieAnimationView18"
+            app:layout_constraintEnd_toEndOf="@+id/lottieAnimationView18"
+            app:layout_constraintStart_toStartOf="@+id/lottieAnimationView18"
+            app:layout_constraintTop_toTopOf="@+id/lottieAnimationView18" />
+
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Sleep advisor"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sleep" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimationView19"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true"
+            app:lottie_rawRes="@raw/peace"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+        <Button
+            android:id="@+id/mental"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button_round"
+            app:layout_constraintBottom_toBottomOf="@+id/lottieAnimationView19"
+            app:layout_constraintEnd_toEndOf="@+id/lottieAnimationView19"
+            app:layout_constraintStart_toStartOf="@+id/lottieAnimationView19"
+            app:layout_constraintTop_toTopOf="@+id/lottieAnimationView19" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Mental Wellbeing"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView19" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

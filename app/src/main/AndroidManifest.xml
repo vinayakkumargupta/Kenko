@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.intro_splashscreen_kenko">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity android:name=".yourname"></activity>
+        <activity android:name=".whyjournal" />
+        <activity android:name=".journal" />
+        <activity android:name=".detoxcenter" />
+        <activity android:name=".quotes" />
+        <activity android:name=".mental_wellbeing" />
+        <activity android:name=".sleeptracker" />
+        <activity android:name=".nutrition" />
+        <activity android:name=".water_add" />
+        <activity android:name=".themenu" />
+        <activity android:name=".splash_login_2" />
+        <activity android:name=".login_activity" />
+        <activity android:name=".after_signup" />
+        <activity android:name=".accident_assistance" />
+        <activity android:name=".finalact_heart_aid" />
+        <activity android:name=".heartaidcasualty" />
+        <activity android:name=".covidresources" />
+        <activity android:name=".signup_activity" />
+        <activity android:name=".sos_page" />
+        <activity android:name=".intro_splash_screen_kenko_2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
